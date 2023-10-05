@@ -50,6 +50,7 @@ def test_create():
     job = 'la-la-la'
     res = api.create(name, job)
 
+
     assert res.status_code == HTTPStatus.CREATED
     assert res.json()['name'] == name
     assert res.json()['job'] == job

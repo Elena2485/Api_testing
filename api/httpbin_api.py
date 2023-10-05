@@ -28,4 +28,5 @@ class HttpBinApi(Client):
         url = self.BASE_URL + '/ip'
         return self.get(url)
 
+
 http_bin_api = HttpBinApi()
