@@ -29,4 +29,5 @@ class HttpBinApi(Client):
         return self.get(url)
 
 
+
 http_bin_api = HttpBinApi()

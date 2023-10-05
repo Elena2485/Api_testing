@@ -7,3 +7,4 @@ def test_1_status():
     response = requests.get(url)
     assert response.status_code == HTTPStatus.OK
 
+
